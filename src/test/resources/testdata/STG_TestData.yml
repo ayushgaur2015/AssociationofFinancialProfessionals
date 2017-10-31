@@ -1,0 +1,249 @@
+joinUrl: 
+registerUrl:
+eWebURL_AddDiscount: iwebUrl: 
+
+user_AddDiscount: 
+          username: 
+          password: 
+          
+
+user: 
+ Member:
+     userName: 
+     pass: 
+ Non-Member:
+     userName: 
+     pass: 
+
+
+
+existingUser: No 
+emailExt: 
+
+personalInformation:
+                prefix: 
+                firstName: 
+                middleName: 
+                jobTitle: Assistant Manager
+                titleCategory: Financial Exec Level - CFO, Fin Controller, Treasurer
+                areaActivity: IT/IS 
+                companyName: QA
+                companyType: Information Technology-Information Technology
+                companyRevenue: $10-99.9 Million
+                individualType: Practitioner 
+                hearAboutUs: News Story
+                addressType: Alternate
+                mailingAddress: ASDF
+                city: qwerty
+                zipCode: 110032
+                country: INDIA
+                province: zxcv
+                state: Florida
+                phone: 1234567891
+                password: 
+                confirmPassword: 
+                newsletters: risk
+                
+Batch: 
+BatchName: 
+
+paymentMethod: 
+             proforma:
+             credit:
+             terms: "Due Upon Receipt"
+             prepaid:
+                 Check: Check
+                 Visa : Visa
+
+Visa:
+   cardHolderName: 
+   creditCardNumber: 
+   expiryDate: 
+   cvv: 
+
+American Express: 
+            
+Check:
+    name on check: 
+    check number : 
+
+                
+Existing query:
+         TestUserSellMembership: "Scripting - Non Members to join"
+         TestUserPerformsSubstitution: "Scripting - Conference Full Registrants"
+         TestUserRefundsAfterCancelEvent: "Scripting - Conference Full Registrants"
+         TestUserRegisterAsNonMemberForCTP_exam: "Scripting - Non Members to register for exam"
+         TestUserPerformsRecertificationPayment: "Scripting - CTP to recertify"
+         TestLockBoxCheckPayingForMultipleItems: "Scripting - Non member to pay for multiple transactions"
+         TestUserPerformsOrderFulfilment: "Scripting - Non Members to join"
+         TestUserPerformsRevocations: "Scripting - Revocations"
+         TestUserReinstateCertificant: "Scripting - Reinstatement"
+         TestUserCancelCTP_Exam: "Scripting - Exam New Applicants"
+         TestUserLinkIndividualToNewCompany: "Scripting - Organization"
+                             
+TestUserSellMembership:
+                   bundleProduct: "AFP Membership"
+                   memberType: "AFP Member"
+                   paymentType: prepaid 
+                   paymentMethod: Visa
+                   
+                   
+TestLockBoxCheckPayingForMultipleItems: 
+                   bundleProduct: "AFP Membership"
+                   paymentType: prepaid 
+                   paymentMethod: Check
+                   Organization Name: Bank of America
+                   II-paymentType: terms
+                   II-paymentMethod: "Due Upon Receipt"
+                   
+                  
+TestUserPerformsRecertificationPayment:
+                   paymentType: prepaid 
+                   paymentMethod: Visa
+                   
+
+TestUserRegisterAsNonMemberForCTP_exam:
+                   paymentType: prepaid
+                   paymentMethod: Visa
+                   
+
+TestUserPerformsSubstitution: 
+                   paymentType: prepaid
+                   paymentMethod: Visa
+                   
+
+TestUserRefundsAfterCancelEvent:
+                   paymentType: prepaid
+                   paymentMethod: Visa
+                   
+
+TestUserCreateDiscountForWebinar:
+                           Discount:
+                              heading: discount amounts
+                              prodName: 
+                              priceRate: 50
+                              account: 
+                              ewbCode: 
+                              currencyType: "USD - United States Dollars"
+                           Product:
+                              heading: discount product x product
+                              productName: 
+                              prodType: Event
+                              product: 
+                              price: 
+                   
+TestUserPerformsOrderFulfilment:                   
+                       paymentType: prepaid
+                       paymentMethod: Visa
+                       publications: "Essentials of Treasury Management, 4th Edition (Non-Member-printed)"
+                       publicationsDisplayName: "Essentials of Treasury Management, 4th Edition (printed for 2016B CTP Exam Window)"
+                       currencyType: "USD - United States Dollars"
+  
+TestUserJoinAFP: 
+            paymentType: prepaid
+            paymentMethod: Visa
+            memberType: "AFP Member"
+
+TestUserRegisterEventInAFP: 
+                 paymentType: prepaid
+                 paymentMethod: Visa
+                 event: "Financial Planning & Analysis Newsletter Quiz December 2015- Non-Member"
+                 eventType: "Financial Planning & Analysis Newsletter Quiz December 2015"
+ 
+TestRemovesQuizzesAndSessionsFromTheReportingTool:
+                                          EventCode: 
+                                          
+TestUserCreateEdocs:
+               productCode: 
+               productName: 
+               description: 
+               productCategory: e-Doc
+               format:
+               priceCode: 
+                   Member: 
+                   Non-Member: 
+               price: 
+                  Member: 0.00
+                  Non-Member: 50.00
+               a_rAccount: 
+               revenueAccount: 
+               liabilityAccount: 
+               returnAccount: 
+               writeOffAccount: 
+               webSite: "AFP"   
+               webSiteSection: "Online Store"
+               pageLinkSearch: "CSC - Publications Search"
+               
+               
+TestUserReinstateCertificant:
+                certifiedFlag: "Yes"
+                status: "Certified"
+                                  
+
+TestUserCreateProduct:
+               productCode: 
+               productName: "AFP Guide To Account Analysis"
+               description: "AFP Guide To Account Analysis"
+               productCategory: "null"
+               productLocation: "3rd desk next to bob's desk"
+               priceCode: 
+                   Member: 
+                   Non-Member: 
+               price: 
+                  Member: 0.00
+                  Non-Member: 160.00
+               a_rAccount: 
+               revenueAccount: 
+               liabilityAccount: 
+               returnAccount: 
+               writeOffAccount: 
+               shipping:
+                   type1: 
+                     price: 
+                     region: "Domestic"      
+                   type2: 
+                     price: 
+                     region: "Domestic"      
+               warehouse: Holmes
+               
+TestUserCancelCTP_Exam:
+                              
+TestUserLinkIndividualToNewCompany:
+                                title: "Test_User"
+                                             
+                                          
+
+                  
+Event:
+     Cancel: "2010 AFP Global Corporate Treasurers Forum"
+     Transfer: "AFP Webinar 02/25/2010"
+     TransferTo: " 	AFP Webinar- How FP&A is Improving Analytics (6/24/15) - M"
+     Refund: "2010 CTP Window A Exam"
+     Recertification: ""
+     Substitution: ""
+     
+Discount webinar:
+             Discount:
+                 prodName:
+                 priceRate:
+                 account:
+             Product:
+                 heading:
+                 productName:
+                 prodType:
+                 product:
+                 price:
+
+netforumwin7:
+        Username: AfpNfTest
+        Password: Qainfotech%%!
+
+email:
+         recepients:
+                         #  recepient1:# anshulmathur@qainfotech.com
+                           recepient2: ayushgaur@qainfotech.com
+           
+
+         
+
+    

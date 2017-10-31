@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Default suite</th></tr><tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">65,607</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch</td><td><a href="#m0">TC45_verifyThatAutoAssignIdFieldIsSetNoAndDefaultValueNewIsDisplayedOnBatchNoField</a></td><td rowspan="1">1473836922200</td><td rowspan="1">119</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch</td><td><a href="#m1">TC43_VerifyConfirmAnewCheckPopUpWithOptions</a></td><td rowspan="1">1473836868378</td><td rowspan="1">53609</td></tr><tr class="passedeven"><td><a href="#m2">TC44_verifyThatAutoAssignIdFieldIsSetYesAndDefaultValueNewIsDisplayedOnBatchNoField</a></td><td rowspan="1">1473836921993</td><td rowspan="1">204</td></tr></tbody></table><h2>Default test</h2><h3 id="m0">com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch#TC45_verifyThatAutoAssignIdFieldIsSetNoAndDefaultValueNewIsDisplayedOnBatchNoField</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[TEST PASSED]: element btn_AutoAssignNewID is displayed.
+<br/>[TEST PASSED]: &apos;Auto Assign ID&apos; is clicked
+</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  expected &apos;NEW&apos; But found &apos;&apos;
+ expected [NEW] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at com.qait.automation.ACS_MSG.keywords.ApplyACheckPaymentActions.verifyThatAutoAssignIdFieldIsSetAndDefaultValueNewIsDisplayedOnBatchNoField(ApplyACheckPaymentActions.java:474)
+	at com.qait.automation.ACS_MSG.keywords.ApplyACheckPaymentActions.verifyThatAutoAssignIdFieldIsSetAndDefaultValueNewIsDisplayedOnBatchNoFieldWithFrameSwitching(ApplyACheckPaymentActions.java:491)
+	at com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch.TC45_verifyThatAutoAssignIdFieldIsSetNoAndDefaultValueNewIsDisplayedOnBatchNoField(Test_PaymentByCheckByCreatingBatchByCustomerSearch.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch#TC43_VerifyConfirmAnewCheckPopUpWithOptions</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[TEST PASSED]: PageTitle for Login: Élan.Web contains: &apos;Login&apos;.
+<br/>[Step]: verified user on login menu page
+<br/>[INFO]: user submitted login form with username &apos;acsvdua&apos;
+<br/>[TEST PASSED]: element login_username is displayed.
+<br/>[TEST PASSED]: element login_password is displayed.
+<br/>[TEST PASSED]: element login_btn is displayed.
+<br/>[INFO]: clicked on login_btn button
+<br/>[Step]: enter username and password completes
+<br/>[TEST PASSED]: PageTitle for Main Menu: Élan.Web contains: &apos;Main Menu&apos;.
+<br/>[Step]: verified user on main menu page
+<br/>[TEST PASSED]: element btn_accountsReceivable is displayed.
+<br/>[INFO]: clicked on Account Receivable button
+<br/>[Step]: Completed verification of customer search 
+<br/>[TEST PASSED]: element &apos;inp_customerSearch&apos; is clicked<br/>[TEST PASSED]: element &apos;&apos; is cleared<br/>[TEST PASSED]: &apos;211482&apos; is inputed in element &apos;inp_customerSearch&apos;<br/>[TEST PASSED]: element btn_customerSearch_GO is displayed.
+<br/>[TEST PASSED]: Element &apos;btn_customerSearch_GO&apos; is displayed<br/>[TEST PASSED]: Element &apos;btn_customerSearch_GO&apos; is clicked<br/>[TEST PASSED]:  customer Id is displayed  under &apos;ID&apos; column on search result page<br/>[TEST PASSED]: element link_customerId_searchItems with text 211482 is displayed.
+<br/>[TEST PASSED]: PageTitle for Customer Information: Elan.Web contains: &apos;Customer Information: Elan.Web&apos;.
+<br/>[Step]: verified user on customer search page
+<br/>[TEST PASSED]: element img_payThisInvoice with text 1085455 is displayed.
+<br/>[TEST PASSED]: date received is correct as per data
+<br/>[Step]: &apos;Verify user is navigated to the &apos;Customers View&apos; page&apos; is complete
+<br/>[TEST PASSED]: element img_payInvoice with text 1085455 is displayed.
+<br/>[TEST PASSED]: element &apos;Pay Invoice Image&apos; is clicked
+<br/>[TEST PASSED]: &apos;Pay by Credit/Debit Card&apos; is displayed
+<br/>[TEST PASSED]: element btn_makePayment_PayByCheck is displayed.
+<br/>[TEST PASSED]: &apos;Pay by Check&apos; is displayed
+<br/>[STEP]: &apos;Verify that the “Make A payment” Pop up appears with options is complete
+<br/>[TEST PASSED]: clicked on &apos;Pay By Check&apos; on &apos;Make Payment&apos; popup<br/>[TEST PASSED]: PageTitle for Apply Payment: Élan.Web contains: &apos;Apply Payment: Élan.Web&apos;.
+<br/>[Step]: Completed verifying user navigates to apply a check payment page 
+<br/>[TEST PASSED]: &apos;Customer Id&apos; option is displayed
+<br/>[TEST PASSED]: element btn_AddANewCheck is displayed.
+<br/>[TEST PASSED]: &apos;Add new Check Button&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Find Customer From Invoice&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Find Customer By Sub&apos; option is displayed
+<br/>[TEST PASSED]: &apos;View Customer Summary&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Customer Name&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Status&apos; option is displayed
+<br/>[TEST PASSED]: &apos;View Check&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Address&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Checks&apos; option is displayed
+<br/>[TEST PASSED]: element inp_CheckAmount is displayed.
+<br/>[TEST PASSED]: &apos;Cash on Account / Check&apos; is displayed
+<br/>[TEST PASSED]: &apos;Bank&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Currency&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Period&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Check Balance&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Credits Taken&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Applied Amount&apos; option is displayed
+<br/>[TEST PASSED]: &apos;Remaining Amount&apos; option is displayed
+<br/>[Step]: verify User Navigates To Apply Check Payment Page
+<br/>[TEST PASSED]: customer name is verified
+<br/>[TEST PASSED]: customer credit status is verified
+<br/>[TEST PASSED]: customer preferred address is verified
+<br/>[Step]: Input customer id and check data complete
+<br/>[TEST PASSED]: element btn_AddANewCheck is displayed.
+<br/>[TEST PASSED]: element frame_addACheck is displayed.
+<br/>[TEST PASSED]: element inp_PaymentTypes is displayed.
+<br/>[TEST PASSED]: Cheque No. is displayed
+<br/>[TEST PASSED]: Batch No. is displayed
+<br/>[TEST PASSED]: Deposit Date is displayed
+<br/>[TEST PASSED]: Bank is dislayed
+<br/>[TEST PASSED]: Currency is displayed
+<br/>[TEST PASSED]: Amount is displayed
+<br/>[TEST PASSED]: Comment is displayed
+<br/>[TEST PASSED]: Allocate Modules is displayed
+<br/>[TEST PASSED]: Allocate Product is displayed
+<br/>[Step]: Completed verification Of &apos;ELAN WEB&apos; Window And Its Input Fields 
+<br/>[INFO]: 663130075 is entered as the check number
+<br/>[TEST PASSED]: element btn_batchNo_dropdown is displayed.
+<br/>[Step]: user enter check number
+<br/>[TEST PASSED]: element imp_greenCheck is displayed.
+<br/>[TEST PASSED]: green check image is displayed
+<br/>[Step]:Completed verification for Green check image 
+<br/>[TEST PASSED]: element btn_NewBatch is displayed.
+<br/>[INFO]: &apos;Add a new batch&apos; is clicked
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qait.automation.ACS_MSG.tests.Test_PaymentByCheckByCreatingBatchByCustomerSearch#TC44_verifyThatAutoAssignIdFieldIsSetYesAndDefaultValueNewIsDisplayedOnBatchNoField</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[TEST PASSED]: element btn_AutoAssignNewID is displayed.
+<br/>[TEST PASSED]: &apos;Auto Assign ID&apos; is clicked
+<br/>[Step]: verifying that auto assign ID field is set to &apos;Yes&apos; and default value &apos;NEW&apos; is displayed on batch no field, complete
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name=" AFP Automated Test Suite Phase-III" parallel="classes"
+	thread-count="1" preserve-order="true">
+
+	<listeners>
+		<listener class-name="com.qait.automation.report.CustomReport" />
+	</listeners>
+
+	<test name="CS SOP Discount Product" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCreateDiscountProductIweb" />
+		</classes>
+	</test>
+
+	<test name="CS SOP Copying event or quiz" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCopyEvent_Sessions" />
+		</classes>
+	</test>
+
+	<test name="CTP Exam Cancellation" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCancelCTP_Exam" />
+		</classes>
+	</test>
+
+	<test name="Linking individual to a new conmpany" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserLinkIndividualToNewCompany" />
+		</classes>
+	</test>
+
+	<test name="Revocations" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserPerformsRevocations" />
+		</classes>
+	</test>
+
+	<test name="Removing Quizzes and Sessions from the Reporting tool"
+		parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestRemovesQuizzesAndSessionsFromTheReportingTool" />
+		</classes>
+	</test>
+
+	<test name="CS SOP Edocs" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCreateEdocs" />
+		</classes>
+	</test>
+
+	<test name="CS SOP Reinstatement Processing" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserReinstateCertificant" />
+		</classes>
+	</test>
+
+	<test name="CS SOP Create Product" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCreateProduct" />
+		</classes>
+	</test>
+	
+	<test name="CS SOP Cancel Exhibits" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCancelExhibits" />
+		</classes>
+	</test>
+	
+	<test name="CS SOP Create Ceu-Reporting InHouse" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserCreateCEU_ReportingInHouse" />
+		</classes>
+	</test>
+	
+		<test name="CS SOP Renew Membership eWeb" parallel="false"
+		preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRenewMembershipEweb" />
+		</classes>
+	</test>
+</suite>

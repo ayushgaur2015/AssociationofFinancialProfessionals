@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name=" AFP Automated Test Suite Phase-I" parallel="classes"
+	thread-count="1" preserve-order="true">
+	
+	<listeners>
+         <listener class-name="com.qait.automation.report.CustomReport" />
+    </listeners>
+	
+	<test name="Join AFP" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserJoinAFP" />
+		</classes>
+	</test>
+	
+	<test name="Recertification - Payment" parallel="false" preserve-order="true">
+			<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserPerformsRecertificationPayment" />
+		</classes>
+	</test>
+	
+	<test name="CS SOP-Event Registrant Substitution" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserPerformsSubstitution" />
+		</classes>
+	</test>
+	
+	<test name="CS SOP-Refunds" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRefundsAfterCancelEvent" />
+		</classes>
+	</test>
+	
+	<test name="iweb Certification -  Register a non-member for the CTP exam as a new ap..." parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRegisterAsNonMemberForCTP_exam" />
+		</classes>
+	</test>
+	
+	<test name="Register Event in AFP" parallel="false" preserve-order="true">
+	<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRegisterEventInAFP" />
+		</classes>
+	</test>
+	
+	<test name="iweb Membership - Sell membership" parallel="false" preserve-order="true">
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserSellMembership" />
+
+		</classes>
+	</test>
+	
+<!-- 	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserJoinAFP" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserPerformsRecertificationPayment" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserPerformsSubstitution" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRefundsAfterCancelEvent" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRegisterAsNonMemberForCTP_exam" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserRegisterEventInAFP" />
+		</classes>
+	</test>
+	
+	<test name="firefox tests" parallel="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="os" value="http://:4444/wd/hub" />
+		<parameter name="device" value="desktop" />
+		<classes>
+			<class
+				name="com.qait.automation.TestAssociationFinancialProfessional.TestUserSellMembership" />
+		</classes>
+	</test>
+ -->
+</suite>
